@@ -1,0 +1,14 @@
+  {
+    "name": "Remove EL PAIS ads blocker",
+    "description" : "Remove the ads blocker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [{
+      "js": ["removeAdsBlocker.js"],
+      "matches": ["https://elpais.com/*"]
+    }]
+  }
