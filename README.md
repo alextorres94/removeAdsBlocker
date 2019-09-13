@@ -1,3 +1,6 @@
-#  Remove the ELPAÍS.com ADS blocker
+#  Remove the blocker the ADS blocker
 
-Feel free to improve this chrome extension or add more newspapers ads blocker
+# Current newspapers
++ elpais.com
+
+Feel free to add more newspapers blocker the ads blocker
