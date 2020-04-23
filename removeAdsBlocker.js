@@ -1,7 +1,7 @@
 setTimeout(() => removeAdsBlocker(), 5000);
 
 const BLOCKER_IDENTIFIER = '.fc-ab-root'
-const ARTICLE_IDENTIFIER = '.salida_articulo'
+const ARTICLE_IDENTIFIER = 'body'
 
 function getIdentifier(id) {
   return document.querySelector(id)
